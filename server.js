@@ -12,6 +12,7 @@ app.use('/store', function(req, res, next) {
 
 app.get('/store', function(req, res) {
 	console.log('To jest sklep');
+	res.end();
 });
 
 app.listen(3000, function() {
